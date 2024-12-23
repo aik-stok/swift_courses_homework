@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "\(String(Int(slider.value))) C°"
+        sliderValue(slider)
         
         // Do any additional setup after loading the view.
     }
